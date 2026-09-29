@@ -1,13 +1,8 @@
 #!/bin/bash
-# This program takes two strings as arguments and checcks their length assuming they are not empty strings
-# argument checks
-#[[ $# -lt 2 ]] && echo "kindly input 2 arguments" && exit 1
-if [[ $# -lt 2 ]]; then
-	echo "kindly input 2 arguments"
-	exit 1
-fi
-str1=$1
-str2=$2
+# This program takes two strings as inputs and checcks their length assuming they are not empty strings
+echo enter two strings
+read str1 str2
+echo str1="$str1", str2="$str2"
 
 #first test
 echo "test1 begins"

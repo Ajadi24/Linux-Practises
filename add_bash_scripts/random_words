@@ -1,0 +1,9 @@
+#!/bin/bash
+# Program to combine a word with a random number
+a=$1 ;
+case $a in
+"" )		echo enter an argument and retry ;;
+"$1" )		echo $a$RANDOM ;;
+#* )		echo kindly enter an argument ;;
+esac
+echo "case closed"

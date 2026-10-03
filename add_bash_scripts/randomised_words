@@ -1,0 +1,9 @@
+#!/bin/bash
+# Program to combine a word with a random number
+a=$1 ;
+while [ $a = $1 ]
+do
+	echo $a$RANDOM
+	exit
+done
+
